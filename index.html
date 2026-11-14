@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Guilherme Oliveira Santos | Portfólio</title>
+  <meta name="description" content="Portfólio de Guilherme Oliveira Santos: estudante de Desenvolvimento de Sistemas e Técnico em Mecânica.">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+  <link href="style.css" rel="stylesheet">
+</head>
+<body data-bs-spy="scroll" data-bs-target="#menu" data-bs-offset="80" tabindex="0">
+
+  <!-- MENU -->
+  <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-ink">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="#perfil">Guilherme Santos</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-controls="menu" aria-expanded="false" aria-label="Abrir menu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="menu">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#perfil">Perfil</a></li>
+          <li class="nav-item"><a class="nav-link" href="#habilidades">Habilidades</a></li>
+          <li class="nav-item"><a class="nav-link" href="#projetos">Projetos</a></li>
+          <li class="nav-item"><a class="nav-link" href="#formacao">Formação</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contato">Contato</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- PERFIL -->
+  <header id="perfil" class="hero d-flex align-items-center">
+    <div class="container">
+      <div class="row align-items-center g-5">
+        <div class="col-lg-7">
+          <p class="hero-role mb-2">Desenvolvimento de Sistemas + Mecânica</p>
+          <h1 class="display-4 fw-bold mb-3">Guilherme Oliveira Santos</h1>
+          <p class="lead mb-4">
+            Estudante de Desenvolvimento de Sistemas na ETEC Itaquera II, com a precisão de quem
+            trabalha com usinagem CNC todos os dias. Eu junto lógica de programação,
+            leitura técnica e atenção ao detalhe para criar soluções que funcionam.
+          </p>
+          <a href="#projetos" class="btn btn-accent btn-lg me-2">Ver projetos</a>
+          <a href="#contato" class="btn btn-outline-light btn-lg">Entrar em contato</a>
+        </div>
+        <div class="col-lg-5">
+          <div class="code-card" aria-hidden="true">
+            <div class="code-bar"><span></span><span></span><span></span></div>
+<pre><code><span class="k">const</span> guilherme = {
+  curso: <span class="s">"Desenvolvimento de Sistemas"</span>,
+  escola: <span class="s">"ETEC Itaquera II"</span>,
+  tambem: <span class="s">"Técnico em Mecânica"</span>,
+  linguagem: <span class="s">"Python"</span>,
+  cidade: <span class="s">"Guarulhos, SP"</span>
+};</code></pre>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- SOBRE -->
+  <section class="py-5 section-light">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-8">
+          <h2 class="h3 fw-bold mb-3">Sobre mim</h2>
+          <p>
+            Cursando o curso Técnico em Desenvolvimento de Sistemas (previsão de término em 12/2027),
+            estou construindo minha base em lógica de programação, desenvolvimento web e
+            organização de projetos. Pratico principalmente com Python, em programas pequenos como
+            calculadoras e sistemas de desconto, e busco integrar programação e automação.
+          </p>
+          <p class="mb-0">
+            Em paralelo, sou Técnico em Mecânica (SENAI, término em 12/2026) e atuo como Operador CNC II.
+            Essa vivência me deu rigor com medidas, leitura de desenho técnico, resolução de falhas e
+            foco em melhoria contínua, e eu levo isso para o código. Com CAD/CAM e Desenvolvimento de
+            Sistemas, quero atuar onde a mecânica encontra a Indústria 4.0.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- HABILIDADES (RECURSO NOVO) -->
+  <section id="habilidades" class="py-5">
+    <div class="container">
+      <h2 class="h3 fw-bold mb-4">Habilidades</h2>
+
+      <div class="row g-5">
+        <div class="col-md-6">
+          <h3 class="h5 fw-bold mb-3">Desenvolvimento de Sistemas</h3>
+          <ul class="skill-list list-unstyled d-flex flex-wrap gap-2">
+            <li class="skill-tag tag-dev">Python</li>
+            <li class="skill-tag tag-dev">HTML</li>
+            <li class="skill-tag tag-dev">CSS</li>
+            <li class="skill-tag tag-dev">Bootstrap</li>
+            <li class="skill-tag tag-dev">JavaScript</li>
+            <li class="skill-tag tag-dev">Lógica de programação</li>
+            <li class="skill-tag tag-dev">Estruturas de dados</li>
+            <li class="skill-tag tag-dev">SQL e modelagem de dados</li>
+            <li class="skill-tag tag-dev">Arquitetura de sistemas</li>
+            <li class="skill-tag tag-dev">Git e GitHub</li>
+          </ul>
+        </div>
+        <div class="col-md-6">
+          <h3 class="h5 fw-bold mb-3">Mecânica e indústria</h3>
+          <ul class="skill-list list-unstyled d-flex flex-wrap gap-2">
+            <li class="skill-tag tag-mec">Operação e setup de CNC</li>
+            <li class="skill-tag tag-mec">Metrologia</li>
+            <li class="skill-tag tag-mec">Leitura de desenho técnico</li>
+            <li class="skill-tag tag-mec">CAD/CAM</li>
+            <li class="skill-tag tag-mec">Ferramentaria de moldes</li>
+            <li class="skill-tag tag-mec">Manutenção industrial</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJETOS -->
+  <section id="projetos" class="py-5 section-light">
+    <div class="container">
+      <h2 class="h3 fw-bold mb-1">Projetos</h2>
+      <p class="text-secondary mb-4">Programas que fiz durante o curso de Desenvolvimento de Sistemas. O código de todos está no meu GitHub.</p>
+
+      <div class="row g-4">
+        <div class="col-md-6 col-lg-4">
+          <div class="card project h-100">
+            <div class="card-body">
+              <span class="badge text-bg-primary mb-2">Python</span>
+              <h3 class="h5 card-title">Calculadora de consumo de energia</h3>
+              <p class="card-text">Calcula o consumo mensal em kWh e o custo estimado em reais de um aparelho, a partir da potência e das horas de uso por dia.</p>
+            </div>
+            <div class="card-footer bg-transparent border-0 pb-3">
+              <a href="https://github.com/oliveirasantosguilherme5-developer/Projetos" class="btn btn-sm btn-outline-dark" target="_blank" rel="noopener">Ver no GitHub</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="card project h-100">
+            <div class="card-body">
+              <span class="badge text-bg-primary mb-2">Python</span>
+              <h3 class="h5 card-title">Sistema de desconto progressivo</h3>
+              <p class="card-text">Aplica 5%, 10% ou 15% de desconto conforme o valor da compra e mostra o percentual ganho e o valor final a pagar.</p>
+            </div>
+            <div class="card-footer bg-transparent border-0 pb-3">
+              <a href="https://github.com/oliveirasantosguilherme5-developer/Desconto-progressivo" class="btn btn-sm btn-outline-dark" target="_blank" rel="noopener">Ver no GitHub</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="card project h-100">
+            <div class="card-body">
+              <span class="badge text-bg-primary mb-2">Python</span>
+              <h3 class="h5 card-title">Consumo de água</h3>
+              <p class="card-text">Programa em Python sobre consumo de água, feito com lógica de programação.</p>
+            </div>
+            <div class="card-footer bg-transparent border-0 pb-3">
+              <a href="https://github.com/oliveirasantosguilherme5-developer/consumo_agua" class="btn btn-sm btn-outline-dark" target="_blank" rel="noopener">Ver no GitHub</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="card project h-100">
+            <div class="card-body">
+              <span class="badge text-bg-primary mb-2">Python</span>
+              <h3 class="h5 card-title">Pesquisa de satisfação</h3>
+              <p class="card-text">Programa em Python que trabalha uma pesquisa de satisfação.</p>
+            </div>
+            <div class="card-footer bg-transparent border-0 pb-3">
+              <a href="https://github.com/oliveirasantosguilherme5-developer/pesquisa_satisfacao" class="btn btn-sm btn-outline-dark" target="_blank" rel="noopener">Ver no GitHub</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="card project h-100">
+            <div class="card-body">
+              <span class="badge text-bg-primary mb-2">Python</span>
+              <h3 class="h5 card-title">Nível de água</h3>
+              <p class="card-text">Programa em Python sobre o nível de água.</p>
+            </div>
+            <div class="card-footer bg-transparent border-0 pb-3">
+              <a href="https://github.com/oliveirasantosguilherme5-developer/nivel_agua" class="btn btn-sm btn-outline-dark" target="_blank" rel="noopener">Ver no GitHub</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="card project h-100">
+            <div class="card-body">
+              <span class="badge text-bg-dark mb-2">HTML, CSS, Bootstrap</span>
+              <h3 class="h5 card-title">Portfólio pessoal</h3>
+              <p class="card-text">Este site, publicado no GitHub Pages, com seções de perfil, habilidades, projetos, formação e contato.</p>
+            </div>
+            <div class="card-footer bg-transparent border-0 pb-3">
+              <a href="https://github.com/oliveirasantosguilherme5-developer/portfolio" class="btn btn-sm btn-outline-dark" target="_blank" rel="noopener">Ver no GitHub</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card project mt-4">
+        <div class="card-body">
+          <span class="badge text-bg-secondary mb-2">Mecânica</span>
+          <h3 class="h5 card-title">Usinagem de componentes de precisão</h3>
+          <p class="card-text mb-0">Na indústria, opero e faço o setup de máquinas CNC, controlo as medidas com paquímetro e micrômetro e ajusto os parâmetros de corte para reduzir desperdício. Essa rotina me deu o hábito de conferir cada detalhe, e eu aplico isso ao testar meus programas.</p>
+        </div>
+      </div>
+
+      <div class="text-center mt-4">
+        <a href="https://github.com/oliveirasantosguilherme5-developer?tab=repositories" class="btn btn-accent" target="_blank" rel="noopener">Ver todos os repositórios</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FORMAÇÃO -->
+  <section id="formacao" class="py-5">
+    <div class="container">
+      <h2 class="h3 fw-bold mb-4">Formação e experiência</h2>
+      <div class="row g-5">
+        <div class="col-md-6">
+          <h3 class="h5 fw-bold mb-3">Formação</h3>
+          <ul class="timeline list-unstyled">
+            <li class="highlight"><strong>Técnico em Desenvolvimento de Sistemas</strong><br>ETEC Itaquera II, 1200 h, término em 12/2027</li>
+            <li><strong>Técnico em Mecânica</strong><br>SENAI Humberto Reis Costa, 1500 h, término em 12/2026</li>
+            <li><strong>Construtor de Moldes para Plástico</strong><br>SENAI Celso Charuri, 1600 h, concluído em 06/2025</li>
+            <li><strong>Mecânica de Usinagem para Moldes Plásticos</strong><br>SENAI Celso Charuri, 1600 h, concluído em 06/2024</li>
+          </ul>
+        </div>
+        <div class="col-md-6">
+          <h3 class="h5 fw-bold mb-3">Experiência</h3>
+          <ul class="timeline list-unstyled">
+            <li><strong>Operador CNC II</strong><br>S.I.N. Implant System, desde 07/2025</li>
+            <li><strong>Jovem Aprendiz, mecânica de manutenção</strong><br>Indústria Filtros Barra LTDA, 07/2024 a 06/2025</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTATO -->
+  <section id="contato" class="py-5 section-dark">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-7 text-center">
+          <h2 class="h3 fw-bold mb-3">Contato</h2>
+          <p class="mb-4">Quer conversar sobre uma vaga, um estágio ou um projeto? Fale comigo.</p>
+          <ul class="list-unstyled contact-list mb-4">
+            <li>E-mail: <a href="mailto:oliveirasantosguilherme5@gmail.com">oliveirasantosguilherme5@gmail.com</a></li>
+            <li>Telefone: <a href="tel:+5511943670459">(11) 94367-0459</a></li>
+            <li>GitHub: <a href="https://github.com/oliveirasantosguilherme5-developer" target="_blank" rel="noopener">oliveirasantosguilherme5-developer</a></li>
+            <li>LinkedIn: <a href="https://www.linkedin.com/in/guilherme-oliveira-santos-b73b75285" target="_blank" rel="noopener">guilherme-oliveira-santos</a></li>
+            <li>Localização: Guarulhos, SP</li>
+          </ul>
+          <a href="mailto:oliveirasantosguilherme5@gmail.com" class="btn btn-accent btn-lg">Enviar e-mail</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="py-3 text-center small bg-ink text-light">
+    © 2026 Guilherme Oliveira Santos
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
